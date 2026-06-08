@@ -9,7 +9,7 @@
 
 ---
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.PENDING.svg)](https://doi.org/10.5281/zenodo.PENDING)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20590089.svg)](https://doi.org/10.5281/zenodo.20590089)
 
 ---
 
@@ -53,6 +53,8 @@ The analysis uses isolate records from the **NCBI Pathogen Detection Isolates Br
 - **URL:** https://www.ncbi.nlm.nih.gov/pathogens/isolates/#Klebsiella_pneumoniae
 - **Download:** Click the Download button on the isolates table and select Isolates (TSV format)
 - **File used:** `isolates.tsv` — 293,033 rows, downloaded June 2026
+
+**Code archive:** This repository is permanently archived on Zenodo at [https://doi.org/10.5281/zenodo.20590089](https://doi.org/10.5281/zenodo.20590089)
 
 After downloading, place the file at `data/isolates.tsv` before running the pipeline.
 
@@ -112,6 +114,7 @@ Rahman MR, Rose JI, Rahman MR. Genomic Prediction of Carbapenem and
 Third-Generation Cephalosporin Resistance in Klebsiella pneumoniae: A Machine Learning
 Analysis of 145,653 Global Isolates with South Asian Regional Stratification.
 Submitted for publication, 2026. Contact: mrahman@ideshi.org
+Code DOI: https://doi.org/10.5281/zenodo.20590089
 ```
 
 Please also cite the data source:

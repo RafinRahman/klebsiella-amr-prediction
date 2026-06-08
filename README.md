@@ -1,10 +1,9 @@
 # Genomic Prediction of AMR in *Klebsiella pneumoniae*: South Asian Regional Analysis
 
-**Md Rafin Rahman**¹, **Abdallah Tasawar Khan**², **Jafren Iqbal Rose**³, **Md Rofiqur Rahman**¹
+**Md Rafin Rahman**¹, **Jafren Iqbal Rose**², **Md Rofiqur Rahman**¹
 
 ¹ Institute for Developing Science and Health Initiatives (ideSHi), Dhaka, Bangladesh  
-² Kurmitola General Hospital, Dhaka, Bangladesh  
-³ Shaheed Monsur Ali Medical College & Hospital, Dhaka, Bangladesh  
+² Shaheed Monsur Ali Medical College & Hospital, Dhaka, Bangladesh  
 
 **Corresponding author:** Md Rafin Rahman, mrahman@ideshi.org
 
@@ -18,7 +17,7 @@
 
 This repository contains the complete analysis pipeline for the manuscript:
 
-> Rahman MR, Khan AT, Rose JI, Rahman MR. *Genomic Prediction of Carbapenem and Third-Generation Cephalosporin Resistance in Klebsiella pneumoniae: A Machine Learning Analysis of 145,653 Global Isolates with South Asian Regional Stratification.* Submitted for publication, 2026.
+> Rahman MR, Rose JI, Rahman MR. *Genomic Prediction of Carbapenem and Third-Generation Cephalosporin Resistance in Klebsiella pneumoniae: A Machine Learning Analysis of 145,653 Global Isolates with South Asian Regional Stratification.* Submitted for publication, 2026.
 
 The study trains and evaluates four machine learning algorithms (logistic regression, random forest, XGBoost, LightGBM) on 145,653 *K. pneumoniae* isolates from the NCBI Pathogen Detection database to predict carbapenem and 3GC resistance phenotypes from AMRFinderPlus gene content. The primary novel contribution is a SHAP-based comparison of resistance gene importance between South Asian isolates (n = 5,919, including 2,239 from Bangladesh) and global isolates, revealing that blaNDM-5, blaOXA-232, and blaOXA-181 have disproportionately higher predictive weight in South Asia compared to the blaKPC genes that dominate globally.
 
@@ -109,7 +108,7 @@ Total runtime on a standard laptop (8 CPU cores) is approximately 20 to 35 minut
 ## Citation
 
 ```
-Rahman MR, Khan AT, Rose JI, Rahman MR. Genomic Prediction of Carbapenem and
+Rahman MR, Rose JI, Rahman MR. Genomic Prediction of Carbapenem and
 Third-Generation Cephalosporin Resistance in Klebsiella pneumoniae: A Machine Learning
 Analysis of 145,653 Global Isolates with South Asian Regional Stratification.
 Submitted for publication, 2026. Contact: mrahman@ideshi.org
